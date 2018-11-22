@@ -1,0 +1,87 @@
+.navbar {
+  background-color: #000000 !important; }
+
+.nav-item {
+  padding-left: 1em; }
+  .nav-item .nav-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background-image: url(../images/image1.jpeg);
+  background-size: cover; }
+
+.carousel-img-2 {
+  background-image: url(../images/image2.jpeg);
+  background-size: cover; }
+
+.carousel-img-3 {
+  background-image: url(../images/image3.jpeg);
+  background-size: cover; }
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding-left: 0 !important; } }
+#get-start {
+  background-image: url(../images/bg1.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #get-start .over-lay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; }
+
+#cash-course {
+  background-image: url(../images/people.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #cash-course .over-lay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; }
+
+#photo-gal img {
+  min-height: 220px; }
+
+#copy-right {
+  background-color: black; }
+
+#aboutus-header {
+  background: url(../images/image1.jpeg);
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed; }
+
+#what-we-do img {
+  height: 350px;
+  width: 350px; }
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #393434; }
+
+#service-header {
+  background: url(../images/image3.jpeg);
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed; }
+
+#blog-header {
+  background: url(../images/image5.jpeg);
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed; }
+
+#contact-header {
+  background: url(../images/image6.jpeg);
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed; }
+
+/*# sourceMappingURL=style.css.map */
